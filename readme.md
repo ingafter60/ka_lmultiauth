@@ -50,7 +50,9 @@
         new file:   database/migrations/2020_08_10_042026_create_roles_table.php
 
 ### 6.38. Multi-auth Users and Roles Part 2
-
+	> git status
+	 	modified:   app/Role.php
+        modified:   app/User.php
 
 ### 7.39. Multi-auth Users and Roles Part 3
 
