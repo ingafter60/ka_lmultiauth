@@ -69,7 +69,17 @@
     > use tinker: php artisan tinker    
 
 ### 9.41. Multi Auth Logic with Middleware Part 1
-
+	> λ php artisan make:controller Admin/DashboardController   
+	> λ php artisan make:controller Author/DashboardController  
+	> λ php artisan make:middleware AdminMiddleware             
+	> λ php artisan make:middleware AuthorMiddleware            
+	> git status
+		new file:   app/Http/Controllers/Admin/DashboardController.php
+        new file:   app/Http/Controllers/Author/DashboardController.php
+        modified:   app/Http/Kernel.php
+        new file:   app/Http/Middleware/AdminMiddleware.php
+        new file:   app/Http/Middleware/AuthorMiddleware.php
+        modified:   readme.md
 
 ### 10.42. Multi Auth Logic with Middleware Part 2
 
