@@ -15,7 +15,29 @@
 		DB_PASSWORD=
 
 ### 3.35. Laravel Default Authentication System
-
+	> composer require laravel/ui "^1.0" --dev
+	> php artisan ui vue --auth
+	> git status	
+	new file:   app/Http/Controllers/HomeController.php            
+	modified:   composer.json                                      
+	modified:   composer.lock                                      
+	modified:   package.json                                       
+	modified:   readme.md                                          
+	modified:   resources/js/app.js                                
+	modified:   resources/js/bootstrap.js                          
+	new file:   resources/js/components/ExampleComponent.vue       
+	new file:   resources/sass/_variables.scss                     
+	modified:   resources/sass/app.scss                            
+	new file:   resources/views/auth/login.blade.php               
+	new file:   resources/views/auth/passwords/confirm.blade.php   
+	new file:   resources/views/auth/passwords/email.blade.php     
+	new file:   resources/views/auth/passwords/reset.blade.php     
+	new file:   resources/views/auth/register.blade.php            
+	new file:   resources/views/auth/verify.blade.php              
+	new file:   resources/views/home.blade.php                     
+	new file:   resources/views/layouts/app.blade.php              
+	modified:   routes/web.php                                     
+	modified:   webpack.mix.js   
 
 ### 4.36. Design Database Table
 
