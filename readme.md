@@ -61,9 +61,12 @@
 		modified:   database/seeds/DatabaseSeeder.php
         new file:   database/seeds/RolesTableSeeder.php
         new file:   database/seeds/UsersTableSeeder.php
-        
-### 8.40. Multi-auth Users and Roles Part 4
 
+### 8.40. Multi-auth Users and Roles Part 4
+	> git status
+		modified:   app/Providers/AppServiceProvider.php
+        modified:   app/User.php
+    > use tinker: php artisan tinker    
 
 ### 9.41. Multi Auth Logic with Middleware Part 1
 
