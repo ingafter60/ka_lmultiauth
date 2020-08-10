@@ -6,7 +6,13 @@
 	> λ composer create-project laravel/laravel==6.0.2 lmultiauth
 
 ### 2.34. Crate Database and Configuration
-
+	> CREATE DATABASE db_name;
+	> 	DB_CONNECTION=mysql
+		DB_HOST=127.0.0.1
+		DB_PORT=3306
+		DB_DATABASE= db_name;
+		DB_USERNAME=root
+		DB_PASSWORD=
 
 ### 3.35. Laravel Default Authentication System
 
