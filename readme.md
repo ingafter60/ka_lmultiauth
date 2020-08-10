@@ -40,10 +40,14 @@
 	modified:   webpack.mix.js   
 
 ### 4.36. Design Database Table
-
+	> pass
 
 ### 5.37. Multi-auth Users and Roles Part 1
-
+	> λ php artisan make:model Role -m
+	> git status
+		new file:   app/Role.php
+        modified:   database/migrations/2014_10_12_000000_create_users_table.php
+        new file:   database/migrations/2020_08_10_042026_create_roles_table.php
 
 ### 6.38. Multi-auth Users and Roles Part 2
 
