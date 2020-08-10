@@ -55,8 +55,13 @@
         modified:   app/User.php
 
 ### 7.39. Multi-auth Users and Roles Part 3
-
-
+	> λ php artisan make:seed UsersTableSeeder
+	> λ php artisan make:seed RolesTableSeeder
+	> git status
+		modified:   database/seeds/DatabaseSeeder.php
+        new file:   database/seeds/RolesTableSeeder.php
+        new file:   database/seeds/UsersTableSeeder.php
+        
 ### 8.40. Multi-auth Users and Roles Part 4
 
 
